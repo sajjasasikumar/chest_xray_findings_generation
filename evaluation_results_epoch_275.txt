@@ -1,0 +1,33 @@
+Evaluation Results:
+
+Metrics:
+BLEU-1: 0.6946
+BLEU-4: 0.4950
+ROUGE-L-F: 0.7306
+
+Example Comparisons:
+
+Example 1:
+Reference: startseq heart size normal .  no pneumothora pleural effusion focal airspace disease .  central left midlung granuloma with calcified left hilar adenopathy .  bony structures appear intact .  endseq
+Generated: startseq normal heart size . clear lungs . no pneumothora pleural effusion . bony thora intact . endseq
+--------------------------------------------------------------------------------
+
+Example 2:
+Reference: startseq the cardiomediastinal silhouette within normal limits .  the lungs are clear without areas focal consolidation .  no pneumothora large pleural effusion .  no acute bone abnormality .  endseq
+Generated: startseq the cardiomediastinal silhouette within normal limits for size and contour . the lungs are clear without areas focal consolidation . no pneumothora large pleural effusion . there are no acute bone abnormalities . endseq
+--------------------------------------------------------------------------------
+
+Example 3:
+Reference: startseq there are no focal areas consolidation .  no suspicious pulmonary opacities .  heart size within normal limits .  no pleural effusions .  no evidence pneumothora .  osseous structures intact .  endseq
+Generated: startseq no focal areas consolidation . heart size within normal limits . no pleural effusions . there no evidence pneumothora . osseous structures intact . endseq
+--------------------------------------------------------------------------------
+
+Example 4:
+Reference: startseq the heart and lungs have the interval .  both lungs are clear and epanded .  heart and mediastinum normal .  endseq
+Generated: startseq both lungs are clear and epanded . heart and mediastinum normal . endseq
+--------------------------------------------------------------------------------
+
+Example 5:
+Reference: startseq interval resolution the left pleural effusion .  lungs are grossly clear .  postsurgical changes from cabg are noted .  no pneumothora pleural effusion .  no acute bony abnormalities are visualized .  endseq
+Generated: startseq no pneumothora pleural effusion focal airspace consolidation . the heart size and mediastinal contour are within normal limits . pulmonary vasculature unremarkable . no acute bony abnormalities . endseq
+--------------------------------------------------------------------------------
